@@ -1,0 +1,39 @@
+#lista_pastas{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px;
+}
+
+#card_pasta{
+    background-color: rgb(225, 225, 78);
+    gap: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border-radius: 10px;
+
+}
+
+.titulo_pastas{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    text-shadow: 10px 10px 10px rgb(255, 91, 91);
+    color: black;
+}
+
+#img_pastas{
+    width: 200px;
+}
+
+.selecao{
+    border-radius: 10px;
+    font-size: 20px;
+    -webkit-appearance: none;
+    appearance: none;
+    padding: 5px;
+    font-style: italic;
+    font-weight: bold;
+    width: 165px;
+}

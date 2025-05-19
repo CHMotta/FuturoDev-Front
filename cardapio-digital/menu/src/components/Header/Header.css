@@ -1,0 +1,38 @@
+.header{
+    display: flex;
+    justify-content: space-around;
+    background-color: #ff0000;
+    align-items: center;
+    color: white;
+    position: fixed;
+    top: 0;
+    width: 100%;
+
+}
+
+h1{
+    font-size: 50px;
+    font-style: italic;
+    color: rgb(225, 225, 78);
+}
+
+.ul{
+    display: flex;
+    gap: 100px;
+    list-style-type: none;
+    font-size: 30px;
+}
+
+a{
+    cursor: pointer;
+    color: white;
+    text-decoration: none;
+    padding: 4px;
+    transition: color 0.3s;
+    
+
+    &:hover{
+        color: rgb(225, 225, 78);
+        border-bottom: 2px solid rgb(225, 225, 78);
+    }
+}
