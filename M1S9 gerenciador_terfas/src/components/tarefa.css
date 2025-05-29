@@ -1,0 +1,70 @@
+#titulo_sistema_gestao{
+    display: flex;
+    border: 1px solid black;
+    padding: 10px;
+    justify-content: center;
+    background-color: #c6c9ff;
+    margin: 10px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.section_tarefa{
+    display: flex;
+    flex-direction: row;
+    background-color: #c6c9ff;
+    justify-content: space-around;
+    padding: 10px;
+    border: 1px solid rgb(53, 117, 181);
+    margin: 10px;
+    border-radius: 10px;
+}
+
+
+#nova_tarefa{
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+#input_tarefa{
+    border-radius: 8px;
+    border: none;
+    font-size: 16px;
+
+}
+
+#section{
+    align-items: center;
+}
+
+.select_turno{
+    text-align: center;
+    border-radius: 10px;
+    height: 30px;
+    width: 110px;
+    font-size: 20px;
+    border: none;
+    align-self: center;
+    -webkit-appearance: none;
+    transition: 0.5s;
+    &:hover{
+        background-color: rgba(116, 116, 213, 0.438);
+        color: blue;
+    }
+}
+
+.btn_tarefa{
+    border-radius: 10px;
+    height: 30px;
+    width: 110px;
+    font-size: 20px;
+    align-self: center;
+    border: none;
+    transition: 0.5s;
+    &:hover{
+        background-color: rgba(116, 116, 213, 0.438);
+        color: blue;
+    }
+}
