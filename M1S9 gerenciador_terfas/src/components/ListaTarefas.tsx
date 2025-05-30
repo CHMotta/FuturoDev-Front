@@ -21,7 +21,7 @@ export default function ListaTarefas({ tarefa, onConcluida, onExcluir }: listaTa
                         {tarefa
                             .filter((item: any) => item.turno === 'Manhã')
                             .map((item: any) => (
-                                <li key={`${item.id}`}>
+                                <li key={`${item.id}`} className='li'>
                                     <label className={item.concluida?'labelList concluida': 'lavelList'}>
                                         <input type="checkbox" checked={item.concluida} name={item.tarefa}
                                             onChange={() => onConcluida(item.id)}
@@ -42,7 +42,7 @@ export default function ListaTarefas({ tarefa, onConcluida, onExcluir }: listaTa
                         {tarefa
                             .filter((item: any) => item.turno === 'Tarde')
                             .map((item: any) => (
-                                <li key={`${item.id}`}>
+                                <li key={`${item.id}`} className='li'>
                                     <label className={item.concluida?'labelList concluida': 'lavelList'}>
                                         <input type="checkbox" checked={item.concluida} name={item.tarefa}
                                             onChange={() => onConcluida(item.id)}
@@ -62,7 +62,7 @@ export default function ListaTarefas({ tarefa, onConcluida, onExcluir }: listaTa
                         {tarefa
                             .filter((item: any) => item.turno === 'Noite')
                             .map((item: any) => (
-                                <li key={`${item.id}`}>
+                                <li key={`${item.id}`} className='li'>
                                     <label className={item.concluida?'labelList concluida': 'lavelList'}>
                                         <input type="checkbox" checked={item.concluida} name={item.tarefa}
                                             onChange={() => onConcluida(item.id)}
