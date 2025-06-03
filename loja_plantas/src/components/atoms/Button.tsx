@@ -1,8 +1,9 @@
+import './atoms.css'
 
 type ButtonProps = {
     text: string;
     onClick?: () => void;
-    variant: 'primary' | 'secondary' //coloca o primary como valor padrão
+    variant?: 'primary' | 'secondary' //coloca o primary como valor padrão
 }
 export default function Button({text, variant = 'primary'}:ButtonProps){
     console.log(`${variant}`)
@@ -13,7 +14,7 @@ export default function Button({text, variant = 'primary'}:ButtonProps){
     } 
     return(
         
-        <button className={`btn ${classVariant[variant]}`}>
+        <button id="btn" className={`btn ${classVariant[variant]}`}>
             {text}
         </button>
     )
