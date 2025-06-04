@@ -1,0 +1,20 @@
+.cards{
+    display: grid;
+    /*Mobile*/
+    grid-template-columns: 1fr;
+    gap: 30px;
+    margin: 40px;
+}
+/*tablet*/
+@media (min-width: 768px){
+    .cards{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+/*desktop*/
+@media (min-width: 992px){
+    .cards{
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+

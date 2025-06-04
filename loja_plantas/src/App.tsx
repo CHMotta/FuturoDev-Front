@@ -1,4 +1,4 @@
-import Cards from "./components/organisms/Cards"
+import Cards from "./components/organisms/PlantGrid"
 
 function App() {
   

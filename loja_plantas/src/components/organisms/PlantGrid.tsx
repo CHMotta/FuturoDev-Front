@@ -1,6 +1,6 @@
 import PlantCard from "../molecules/PlantCard";
 import { v4 as uuid} from 'uuid'
-import './cards.css'
+import './plantGrid.css'
 
 export default function Cards(){
     return(
